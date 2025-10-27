@@ -1,0 +1,27 @@
+# ---------------------------------------------
+# GENERATED FILE 
+# DO NOT EDIT
+# ---------------------------------------------
+{
+    email koenigphil@gmail.com
+    log {
+        output stdout
+    }
+} 
+go {
+    root * /var/www
+    tls koenigphil@gmail.com
+    
+## Redirection
+
+    redir /tc https://tc.unclephil.net
+
+    redir /etnic https://etnic.be{uri}
+
+    redir /google https://www.google.com
+
+    redir /maps https://maps.google.com
+
+
+}
+## END OF GENERATION
