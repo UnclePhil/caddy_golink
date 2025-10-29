@@ -9,4 +9,4 @@ COPY ./app /app
 
 VOLUME [ "/app/config" ]
 
-CMD ["/app/entrypoint.sh"]
+ENTRYPOINT ["/app/entrypoint.sh"]
