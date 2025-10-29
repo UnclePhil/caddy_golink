@@ -21,4 +21,4 @@ The idea is to store this in a gitlab repository, and to process some generation
     - curl
 
 ## build
-- github action
+- github action V2
