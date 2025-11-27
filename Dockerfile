@@ -1,6 +1,6 @@
 FROM demisto/unzip:1.0.0.4855875 as zipper
-RUN curl -fsSL https://github.com/Andrew4d3/go-csv2json/releases/download/v1.0/csv2json.zip >csv2json.zip && \
-    unzip csv2json.zip 
+RUN curl -fsSL https://github.com/Andrew4d3/go-csv2json/releases/download/v1.0/csv2json.zip >csv2json.zip 
+RUN unzip csv2json.zip 
 
 FROM caddy:alpine
 RUN apk add --no-cache curl grep coreutils
